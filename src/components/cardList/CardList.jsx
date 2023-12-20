@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from "./cardList.module.css";
+import styles from "./cardlist.module.css";
 import Pagination from '../pagination/Pagination';
 
 function CardList() {
@@ -10,5 +10,4 @@ function CardList() {
     </div>
   )
 }
-
 export default CardList
