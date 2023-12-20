@@ -1,3 +1,13 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 100%;
+  padding: 0 1.5rem;
+}
+
 /* The switch - the box around the slider */
 .switch {
     font-size: 17px;
