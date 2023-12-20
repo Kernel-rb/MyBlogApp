@@ -1,13 +1,14 @@
+import Image from 'next/image';
 import styles from './themeToggle.module.css';
 
 const ThemeToggle = () => {
-    return <div className={styles.container}>
-        <label className="switch">
-            <input type="checkbox" />
-            <span className="slider" />
-        </label>
-
-    </div>;
+    return (
+        <div className={styles.container}>
+        <Image src="/moon.png" alt="moon" width={14} height={14} />
+        <div className={styles.container}></div>
+            <Image src="/sun.png" alt="sun" width={14} height={14} />
+        </div>
+    );
     
 
 };
