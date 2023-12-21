@@ -6,7 +6,7 @@ const AuthLinks = () => {
     const status ="notauth"
     return <>
         {status === "notauth" ? (
-            <Link href="/login">Login</Link>
+            <Link href="/login"></Link>
         ) : (
                 <>
                 <Link href="/write">Create</Link>
